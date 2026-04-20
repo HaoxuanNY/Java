@@ -72,6 +72,38 @@ nav a:hover{
   border:1px solid black;
   
 }
-#output{
 
+#output{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+  padding: 20px;
+}
+.card {
+  background: #e6d6d6;
+  width: calc(33.333% - 18px);
+  border: 1px solid #000000;
+  text-align: center;
+  box-shadow: none;
+}
+
+.card-title {
+  font-weight: bold;
+  margin-bottom: 2px;
+  color: #000;
+}
+
+
+.label {
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 2px;
+  color: #000;
+}
+
+.value {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #000;
 }
